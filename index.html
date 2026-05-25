@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr"> <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alerte : intrusion</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    
+    <header>
+        <h1>⚠️ ALERTE : Tentative d'intrusion détectée</h1>
+        <h2>Machine cible : Web-Server-01 (IP: 192.168.1.100)</h2>
+    </header>
+    
+    <hr>
+    
+    <main>
+        <section>
+            <article>
+                <h3>Description de la menace</h3>
+                <p>Un utilisateur inconnu a tenté de se connecter 15 fois d'affilée en moins de 30 sec via le protocole SSH.</p>
+            </article>
+            
+            <section> 
+                <article>
+                    <details>
+                        <summary class="alert-summary">
+                            ⚠️ Logs d'authentification SSH (Clique ici pour voir les détails)
+                        </summary>
+                        
+                        <pre class="code-block">
+Jul 20 14:32:01 Web-Server-01 sshd[12345]: Failed password for invalid user admin from 192.168.1.50
+                        </pre>
+                    </details>
+                </article>
+            </section>
+        </section>
+    </main>
+
+</div>
+</body>
+</html>
