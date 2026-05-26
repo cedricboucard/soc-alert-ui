@@ -10,4 +10,4 @@ Built while learning Design Fundamentals @freecodecamp
 
 # Screenshot : 
 
-![screenshot-webpage](image.png)
+![screenshot](image-1.png)
