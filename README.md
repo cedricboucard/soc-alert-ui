@@ -1,12 +1,10 @@
-# soc-alert-ui 
+
 # SOC Alert UI
 
-Dashboard component for intrusion detection alerts.
-Skills: HTML, CSS, UI Design, Color Theory, Visual Hierarchy
-
-Live: https://cedricboucard.github.io/soc-alert-ui/
-
-Built while learning Design Fundamentals @freecodecamp
+Actuel : Projet perso sur le Free code camp sur l'UI/UX
+Pro : Dashboard component for intrusion detection alerts. Built with HTML/CSS. 
+Skills: UI Design, Color Theory, Visual Hierarchy, Cybersecurity.
+Live Demo: https://cedricboucard.github.io/soc-alert-ui/
 
 # Screenshot : 
 
