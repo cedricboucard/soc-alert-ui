@@ -41,3 +41,16 @@ details {
     border-left: 4px solid #ef4444;
     font-family: monospace;
 }
+.btn-action {
+    background-color:#ef4444;
+    color:white;
+    font-weight: bold;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.btn-action:hover {
+    background-color: #dc2626; /* Un rouge un peu plus sombre au survol */
+}
